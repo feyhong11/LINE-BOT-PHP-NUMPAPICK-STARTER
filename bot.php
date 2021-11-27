@@ -27,14 +27,14 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 
-			$Topic = "Wemos_UNO_R1" ;
+			$Topic = "WemosUNOR1" ;
 			getMqttfromlineMsg($Topic,$text);
 			   
 			
 		}
 	}
 }
-$Topic = "Wemos_UNO_R1" ;
+$Topic = "WemosUNOR1" ;
 $text = "Test";
 getMqttfromlineMsg($Topic,$text);
 echo "OK3";
