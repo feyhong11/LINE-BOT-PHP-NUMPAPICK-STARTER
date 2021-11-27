@@ -34,7 +34,7 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-$Topic = "NodeMCU1" ;
+$Topic = "Wemos_UNO_R1" ;
 $text = "Test";
 getMqttfromlineMsg($Topic,$text);
 echo "OK3";
