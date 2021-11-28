@@ -27,7 +27,7 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
 
-			$Topic = "WemosUNOR1WemosUNOR1" ;
+			$Topic = "WemosUNOR1" ;
 			getMqttfromlineMsg($Topic,$text);
 			   
 			
